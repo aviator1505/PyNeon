@@ -278,7 +278,7 @@ def concat_streams(
     print("Concatenating streams:")
     if "gaze" in stream_names:
         if rec.gaze is None:
-            raise ValueError("Cannnot load gaze data.")
+            raise ValueError("Cannot load gaze data.")
         stream_info = pd.concat(
             [
                 stream_info,
